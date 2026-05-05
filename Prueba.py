@@ -3,7 +3,6 @@
 """
 Software FJ - Sistema Integral de Gestión
 Gestión de Clientes, Servicios y Reservas
-Autor: Tarea 4 - Sistema OOP Avanzado
 Fecha: 2026-05-05
 """
 
