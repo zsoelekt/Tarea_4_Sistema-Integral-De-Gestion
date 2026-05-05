@@ -5,6 +5,7 @@ Este proyecto implementa un sistema orientado a objetos en Python para gestionar
 ## Integrantes
 Juan Andres Bustamante Peña
 Jorge Luis Orozco Martinez
+
 ## Características
 - Programación orientada a objetos
 - Uso de clases abstractas
@@ -19,7 +20,4 @@ Jorge Luis Orozco Martinez
 - src/utils: Funciones auxiliares
 - logs: Registro de errores
 
-## Cómo ejecutar
 
-```bash
-python src/main.py
