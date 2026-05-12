@@ -1,24 +1,18 @@
 from modelos.servicio import Servicio
 
 class ReservaSala(Servicio):
-    def calcular_costo(self, horas):
-        return self.tarifa * horas
 
-    def describir(self):
-        return "Reserva de sala empresarial"
+    def calcular_costo(self, horas):
+        return self.precio_base * horas
 
 
 class AlquilerEquipo(Servicio):
+
     def calcular_costo(self, horas):
-        return (self.tarifa * horas) + 20
-
-    def describir(self):
-        return "Alquiler de equipos tecnológicos"
+        return (self.precio_base * horas) + 20
 
 
-class Asesoria(Servicio):
+class AsesoriaEspecializada(Servicio):
+
     def calcular_costo(self, horas):
-        return self.tarifa * horas * 1.2
-
-    def describir(self):
-        return "Asesoría especializada"
+        return (self.precio_base * horas) * 1.15
