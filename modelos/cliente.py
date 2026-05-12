@@ -1,18 +1,17 @@
 from modelos.entidad import Entidad
 
 class Cliente(Entidad):
-    def __init__(self, nombre, correo):
-        self.__nombre = nombre
-        self.__correo = correo
-        self.validar()
 
-    def validar(self):
-        if "@" not in self.__correo:
+    def __init__(self, nombre, correo):
+
+        if "@" not in correo:
             raise ValueError("Correo inválido")
 
-    def mostrar_info(self):
-        return f"Cliente: {self.__nombre} - {self.__correo}"
+        self.__nombre = nombre
+        self.__correo = correo
 
-    @property
-    def nombre(self):
+    def mostrar_info(self):
+        return f"{self.__nombre} - {self.__correo}"
+
+    def get_nombre(self):
         return self.__nombre
