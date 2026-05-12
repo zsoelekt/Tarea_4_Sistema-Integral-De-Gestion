@@ -3,7 +3,7 @@
 Este proyecto implementa un sistema orientado a objetos en Python para gestionar clientes, servicios y reservas sin el uso de bases de datos.
 
 ## Integrantes
-Juan Andres Bustamante Peña
+Juan Andres Bustamante Peña 
 Jorge Luis Orozco Martinez
 
 ## Características
@@ -20,4 +20,16 @@ Jorge Luis Orozco Martinez
 - src/utils: Funciones auxiliares
 - logs: Registro de errores
 
+## Ejecución
 
+- Ejecutar desde la carpeta principal: python main.py
+
+
+## Tecnologías Utilizadas
+- Python 3
+- Programación Orientada a Objetos
+- Manejo de archivos
+
+## Conclusión
+
+El proyecto permitió aplicar conceptos de Programación Orientada a Objetos y manejo de excepciones mediante un sistema modular y funcional.
